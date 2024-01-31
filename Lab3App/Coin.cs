@@ -10,8 +10,8 @@ namespace Lab3App
 		{
             this.Value = value;
             Console.WriteLine(this.Description + " Collected, Congrats!!!!");
-			//UpdateTotalValue();
-			UpdateTotalScore(); 
+            UpdateTotalScore();
+            UpdateTotalValue();
 		}
 
         public override void AddMe(List<Collectable> list)
@@ -26,8 +26,8 @@ namespace Lab3App
 
 		public void UpdateTotalValue()
 		{
-			//TotalValue += Value;
-			TotalScore += Value; 
+			TotalValue += Value;
+			//TotalScore += Value; 
 			Console.WriteLine("Total value is updated to: " + TotalValue); 
 		}
 

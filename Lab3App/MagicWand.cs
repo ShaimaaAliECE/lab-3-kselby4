@@ -6,7 +6,7 @@ namespace Lab3App
 		public MagicWand(String description) :base(description)
 		{
             Console.WriteLine($"{Description} Collected, Congrats!!!");
-            //DoAction();
+            DoAction();
         }
 
         public override void Display()
